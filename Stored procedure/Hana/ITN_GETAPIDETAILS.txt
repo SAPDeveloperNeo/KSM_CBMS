@@ -1,0 +1,5 @@
+CREATE PROCEDURE ITN_GetApiDetails
+AS
+BEGIN
+select  "U_BillApiUrl",  "U_BillReturnAPiUrl", "U_Enabled" from "@CBMS_CONFIG";
+END;
